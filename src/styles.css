@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@import "@fontsource/fraunces/latin-500.css";
+@import "@fontsource/fraunces/latin-600.css";
+@import "@fontsource/fraunces/latin-700.css";
+@import "@fontsource/fraunces/latin-500-italic.css";
+@import "@fontsource/fraunces/latin-600-italic.css";
+@import "@fontsource/source-serif-4/latin-400.css";
+@import "@fontsource/source-serif-4/latin-500.css";
+@import "@fontsource/source-serif-4/latin-600.css";
+@import "@fontsource/source-serif-4/latin-400-italic.css";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --font-body: "Source Serif 4", Palatino, "Palatino Linotype", "Book Antiqua", serif;
+
+  --color-paper: #f3ead8;
+  --color-ink: #1a2e24;
+  --color-vine: #2f5d3a;
+  --color-seed: #8a4e12;
+  --color-blossom: #e4c15a;
+}
+
+@layer base {
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100%;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: var(--color-blossom);
+    color: var(--color-ink);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+.spine-title {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.drop::first-letter {
+  float: left;
+  padding-right: 0.45rem;
+  font-family: var(--font-display);
+  font-size: 3.15rem;
+  font-weight: 600;
+  line-height: 0.8;
+  color: var(--color-vine);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .plate-in {
+    animation: plate-in 220ms ease;
+  }
+}
+
+@keyframes plate-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

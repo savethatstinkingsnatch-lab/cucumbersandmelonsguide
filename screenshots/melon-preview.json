@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Vinekeeper",
+      "hasCanvas": false,
+      "bodyTextLen": 626,
+      "bodyTextHash": "07b8b9e4117386d3a454c10001844bc72e36a772d087ed8357ae23ca4a870122",
+      "bodyTextPrefix": "Melons 1 The Vinekeeper · Melons Cover 1 / 8 The Vinekeeper · Vo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/melon-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Vinekeeper",
+      "hasCanvas": false,
+      "bodyTextLen": 617,
+      "bodyTextHash": "f64adf99bc4565ace3db9294a490b7b347f6de5dc92918554e850cfa685ee5e0",
+      "bodyTextPrefix": "The Vinekeeper · Melons Cover 1 / 8 The Vinekeeper · Volume II M",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/melon-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/melon-preview.json"
+}

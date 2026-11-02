@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Vinekeeper",
+      "hasCanvas": false,
+      "bodyTextLen": 667,
+      "bodyTextHash": "b78259f22a71bf5c0732095a74b9abb577261cee1c42986e45ddd92869befc4f",
+      "bodyTextPrefix": "Melons 1 The Vinekeeper · Melons Cover 1 / 9 The Vinekeeper · Vo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/gazebo-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Vinekeeper",
+      "hasCanvas": false,
+      "bodyTextLen": 658,
+      "bodyTextHash": "2961405ac20775e8df973b8504365862ba13be5cd431fb3d6719338a7eb09cba",
+      "bodyTextPrefix": "The Vinekeeper · Melons Cover 1 / 9 The Vinekeeper · Volume II M",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/gazebo-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/gazebo-preview.json"
+}
