@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "The Vinekeeper";
+const APP_NAME = "Volume 2: Cucumbers and Melons (The Education Revolution)";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "The Vinekeeper, by Blue and the Awesome Dudes. A field book on cucumbers and melons.",
+          "Volume 2 of The Education Revolution, by Blue and the Awesome Dudes. A field book on cucumbers and melons.",
       },
       { name: "theme-color", content: "#f3ead8" },
     ],

@@ -18,9 +18,9 @@ export function CoverPage() {
   return (
     <article className="plate-in mx-auto grid w-full max-w-5xl items-center gap-8 px-5 py-8 md:grid-cols-2 md:px-10 md:py-12">
       <div>
-        <p className="font-display text-sm text-vine">A field book</p>
+        <p className="font-display text-sm text-vine">The Education Revolution · Volume 2</p>
         <h1 className="mt-3 font-display text-5xl font-semibold leading-tight text-ink md:text-6xl">
-          The Vinekeeper
+          Volume 2: Cucumbers and Melons
         </h1>
         <p className="mt-2 font-display text-lg text-ink">Blue and the Awesome Dudes</p>
         <p className="mt-4 max-w-md font-display text-xl italic leading-snug text-ink/85">
